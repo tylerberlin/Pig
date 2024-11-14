@@ -87,9 +87,9 @@ struct ContentView: View {
                     endTurn()
                 }
             }
-        }
-        else{
-            turnScore += randomValue
+            else{
+                turnScore += randomValue
+            }
         }
     }
 }
